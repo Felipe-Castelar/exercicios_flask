@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "hello_world",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def hello_world():\n    return \"Hello world!\"\n@app.route(\"/cu\")\ndef about():\n    return\"Pagina cu\"\nif __name__ ==\"__main__\":   \n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def about():\n    return\"Pagina cu\"\nif __name__ ==\"__main__\":   \n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\n@app.route(\"/\")\ndef hello_world():\n    return \"Hello world!\"\n@app.route(\"/cu\")\ndef about():\n    return\"Pagina cu\"\nif __name__ ==\"__main__\":   \n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
